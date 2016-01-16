@@ -2,13 +2,18 @@
   "name": "noisy",
   "version": "0.1.0",
   "description": "",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
+    "build":"gulp browserify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sisisin",
   "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.4"
+    "browserify": "^13.0.0",
+    "electron-prebuilt": "^0.36.4",
+    "gulp": "^3.9.0",
+    "twit": "^2.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
