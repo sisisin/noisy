@@ -3,3 +3,4 @@ dist/
 settings.js
 .DS_Store
 _tmp/
+npm-debug.log
