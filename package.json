@@ -7,7 +7,8 @@
     "build": "gulp build",
     "build:static": "gulp build:static",
     "watch": "gulp watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"electron ."
   },
   "author": "sisisin",
   "license": "MIT",
