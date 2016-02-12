@@ -20,7 +20,7 @@ function tweet() {
   let hs = document.querySelector('.hashtag');
   let twString = tw.value;
 
-  if (hs.value !== '') twString += ` # ${hs.value}`;
+  if (hs.value !== '') twString += ` #${hs.value}`;
 
   T.post('statuses/update', { status: twString }, (err, data, res) => {
     if (err) alert(err.toString());
